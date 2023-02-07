@@ -12,11 +12,6 @@ final class FirstTableViewController: UITableViewController {
     
     var contactList: [Person]!
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-    }
-
     // MARK: - Table view data source
 
 

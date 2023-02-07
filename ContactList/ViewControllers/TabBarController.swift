@@ -14,7 +14,8 @@ final class TabBarController: UITabBarController {
         
         if let firstTV = viewControllers?.first as? FirstTableViewController {
             firstTV.contactList = contactList
-        } else if let secondTV = viewControllers?.last as? SecondTableViewController {
+        }
+        if let secondTV = viewControllers?.last as? SecondTableViewController {
             secondTV.contactList = contactList
         }
     }
