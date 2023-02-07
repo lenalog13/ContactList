@@ -7,21 +7,17 @@
 
 import UIKit
 
-class TabBarController: UITabBarController {
+final class TabBarController: UITabBarController {
     
-    let contactList = Person.getContactList()
-    
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        guard let navigationVS = segue.destination as? UINavigationController else {
-            return
-        }
-        if let firstTV = navigationVS.topViewController as? FirstTableViewController {
+    override func viewDidLoad() {
+        let contactList = Person.getContactList()
+        
+        if let firstTV = viewControllers?.first as? FirstTableViewController {
             firstTV.contactList = contactList
-        } else if let secondTV = navigationVS.topViewController as? SecondTableViewController {
+        } else if let secondTV = viewControllers?.last as? SecondTableViewController {
             secondTV.contactList = contactList
         }
     }
-
-
+    
 }
 

@@ -7,7 +7,7 @@
 
 import UIKit
 
-class SecondTableViewController: UITableViewController {
+final class SecondTableViewController: UITableViewController {
     
     
     var contactList: [Person]!

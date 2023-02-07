@@ -17,6 +17,7 @@
 		4DD59F542991206B006C141D /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD59F532991206B006C141D /* Services.swift */; };
 		4DD59F5829913AC8006C141D /* SecondTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD59F5729913AC8006C141D /* SecondTableViewController.swift */; };
 		4DD59F5A29913AEB006C141D /* FirstTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD59F5929913AEB006C141D /* FirstTableViewController.swift */; };
+		4DD59F5C2992BF32006C141D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD59F5B2992BF32006C141D /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		4DD59F532991206B006C141D /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
 		4DD59F5729913AC8006C141D /* SecondTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTableViewController.swift; sourceTree = "<group>"; };
 		4DD59F5929913AEB006C141D /* FirstTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTableViewController.swift; sourceTree = "<group>"; };
+		4DD59F5B2992BF32006C141D /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 			children = (
 				4DD59F3C29911EA5006C141D /* TabBarController.swift */,
 				4DD59F5929913AEB006C141D /* FirstTableViewController.swift */,
+				4DD59F5B2992BF32006C141D /* DetailViewController.swift */,
 				4DD59F5729913AC8006C141D /* SecondTableViewController.swift */,
 			);
 			path = ViewControllers;
@@ -189,6 +192,7 @@
 				4DD59F3929911EA5006C141D /* AppDelegate.swift in Sources */,
 				4DD59F3B29911EA5006C141D /* SceneDelegate.swift in Sources */,
 				4DD59F5A29913AEB006C141D /* FirstTableViewController.swift in Sources */,
+				4DD59F5C2992BF32006C141D /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
