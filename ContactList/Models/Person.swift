@@ -32,7 +32,7 @@ extension Person {
                         emails.count)
         
         
-        for index in 0...count-1 {
+        for index in 0..<count {
             contactList.append(Person(name: names[index],
                                       surname: surnames[index],
                                       phoneNumber: phoneNumbers[index],

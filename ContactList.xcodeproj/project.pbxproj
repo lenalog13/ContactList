@@ -14,7 +14,7 @@
 		4DD59F4229911EA6006C141D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DD59F4129911EA6006C141D /* Assets.xcassets */; };
 		4DD59F4529911EA6006C141D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DD59F4329911EA6006C141D /* LaunchScreen.storyboard */; };
 		4DD59F5229911F97006C141D /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD59F5129911F97006C141D /* Person.swift */; };
-		4DD59F542991206B006C141D /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD59F532991206B006C141D /* Services.swift */; };
+		4DD59F542991206B006C141D /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD59F532991206B006C141D /* DataStore.swift */; };
 		4DD59F5829913AC8006C141D /* SecondTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD59F5729913AC8006C141D /* SecondTableViewController.swift */; };
 		4DD59F5A29913AEB006C141D /* FirstTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD59F5929913AEB006C141D /* FirstTableViewController.swift */; };
 		4DD59F5C2992BF32006C141D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD59F5B2992BF32006C141D /* DetailViewController.swift */; };
@@ -30,7 +30,7 @@
 		4DD59F4429911EA6006C141D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4DD59F4629911EA6006C141D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4DD59F5129911F97006C141D /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
-		4DD59F532991206B006C141D /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		4DD59F532991206B006C141D /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
 		4DD59F5729913AC8006C141D /* SecondTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTableViewController.swift; sourceTree = "<group>"; };
 		4DD59F5929913AEB006C141D /* FirstTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTableViewController.swift; sourceTree = "<group>"; };
 		4DD59F5B2992BF32006C141D /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
@@ -68,6 +68,7 @@
 			children = (
 				4DD59F4D29911F04006C141D /* ViewControllers */,
 				4DD59F5029911F58006C141D /* Models */,
+				4DD59F5D2993B880006C141D /* Services */,
 				4DD59F4C29911EEB006C141D /* Storyboards */,
 				4DD59F4E29911F17006C141D /* SupportFiles */,
 				4DD59F4129911EA6006C141D /* Assets.xcassets */,
@@ -109,9 +110,16 @@
 			isa = PBXGroup;
 			children = (
 				4DD59F5129911F97006C141D /* Person.swift */,
-				4DD59F532991206B006C141D /* Services.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		4DD59F5D2993B880006C141D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4DD59F532991206B006C141D /* DataStore.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,7 +193,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DD59F542991206B006C141D /* Services.swift in Sources */,
+				4DD59F542991206B006C141D /* DataStore.swift in Sources */,
 				4DD59F5229911F97006C141D /* Person.swift in Sources */,
 				4DD59F3D29911EA5006C141D /* TabBarController.swift in Sources */,
 				4DD59F5829913AC8006C141D /* SecondTableViewController.swift in Sources */,

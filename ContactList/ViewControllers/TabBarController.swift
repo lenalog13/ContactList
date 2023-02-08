@@ -10,6 +10,11 @@ import UIKit
 final class TabBarController: UITabBarController {
     
     override func viewDidLoad() {
+        super.viewDidLoad()
+        setupViewControllers()
+    }
+    
+    private func setupViewControllers() {
         let contactList = Person.getContactList()
         
         if let firstTV = viewControllers?.first as? FirstTableViewController {
