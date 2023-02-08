@@ -6,6 +6,8 @@
 //
 class DataStore {
     
+    static let shared = DataStore()
+    
     let names = ["Lena", "Kate", "Masha",
                  "Pasha", "Stas", "Kolyn",
                  "Alex", "Zhenya", "Mishel",
@@ -26,4 +28,5 @@ class DataStore {
                   "salt@mail.ru", "miu-miu@gmail.com", "super@mail.ru",
                   "kikimora@yandex.com", "vedma@rambler.com", "kiss@gmail.ru"]
     
+    private init() {}
 }

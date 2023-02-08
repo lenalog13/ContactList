@@ -18,7 +18,7 @@ struct Person {
 
 extension Person {
     static func getContactList() -> [Person] {
-        let data = DataStore()
+        let data = DataStore.shared
         var contactList: [Person] = []
         
         let names = data.names.shuffled()
